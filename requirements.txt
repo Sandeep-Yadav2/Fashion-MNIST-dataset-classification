@@ -1,0 +1,7 @@
+
+Keras==2.4.3
+opencv-python==4.4.0.44
+Pillow==8.0.0
+python-dateutil==2.8.1
+streamlit==0.69.2
+tensorflow==2.1.0
