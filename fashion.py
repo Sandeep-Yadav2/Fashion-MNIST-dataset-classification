@@ -29,7 +29,7 @@ fas_data=keras.datasets.fashion_mnist
 
 
 seq_model=tf.keras.models.load_model("Seq_model")
-cnn_model=tf.keras.models.load_model("CNN_model")
+cnn_model=tf.keras.models.load_model("cnn_model")
 class_names=['Tshirt/TOP','Trouser','Pullover','Dress','Coat',
              'Sandel','Shirt','Sneaker','Bag','Ankle boot']
 
