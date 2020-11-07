@@ -59,10 +59,10 @@ def explore_data(train_images,train_label,test_images):
     st.write('Testing Classes',len(np.unique(test_labels)))
 
 def  CNN_model_summary():
-    img=Image.open("cnn_summary.png")
+    img=Image.open("cnn_summary.PNG")
     st.image(img)
 def  Seq_model_Summary():
-    img=Image.open("Seq_summary.png")
+    img=Image.open("Seq_summary.PNG")
     st.image(img)
     
 def seq_history_graph():
