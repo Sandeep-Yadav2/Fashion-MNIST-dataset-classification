@@ -15,7 +15,7 @@ import Seq_model
 import pandas as pd
 import pickle
 import time
-#from sequential_model import history_graph
+
 
 import numpy as np
 from PIL import Image, ImageOps
@@ -40,7 +40,7 @@ class_names=['Tshirt/TOP','Trouser','Pullover','Dress','Coat',
 ######### -------------- Sidebarr--------------------->
 add_selectbox = st.sidebar.selectbox(
     'select the model for classification',
-    ('Sequential','CNN','About data','Pretrained Nueral network')
+    ('Sequential','CNN','About data','Pretrained Nueral network','About us')
 )
 
 
@@ -131,7 +131,7 @@ def about_data(cnn_model,Seq_model):
     if st.button('Seq ModelSumarry'):
         Seq_model_Summary()
         
-    if st.button('Sequntial model Architecture'):
+    if st.button('Sequential model Architecture'):
         seq_archi()
        
     
@@ -148,6 +148,9 @@ if add_selectbox=='About data':
 
 if add_selectbox=='Pretrained Nueral network':
     st.write("working on it, updated soon!")
+if(add_selectbox=='About us'):
+    st.write('Sandeep Yadav')
+    st.write('contact:sandeep18498@gmail.com')
 
 
 file_uploader=st.file_uploader('Upload Image for Classification:')
