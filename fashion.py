@@ -68,7 +68,7 @@ def  Seq_model_Summary():
 def seq_history_graph():
     infile=open('seq_trainHistory',"rb")
     history = pickle.load(infile)
-    plt.figure(figsize=(10,10))
+    plt.figure(figsize=(7,7))
     train_acc=history['accuracy']
     val_acc=history['val_accuracy']
     train_loss=history['loss']
@@ -78,7 +78,7 @@ def seq_history_graph():
     plt.plot(val_acc,label='val acc')
     plt.legend()
     plt.title('acc')
-    plt.subplot(2,2,3)
+    plt.subplot(2,2,2)
     plt.plot(train_loss,label='train loss')
     plt.plot(val_loss,label='val loss')
     plt.legend()
@@ -91,7 +91,7 @@ def seq_history_graph():
 def cnn_history_graph():
     infile=open('cnntrainHistory',"rb")
     history = pickle.load(infile)
-    plt.figure(figsize=(10,10))
+    plt.figure(figsize=(7,7))
     train_acc=history['accuracy']
     val_acc=history['val_accuracy']
     train_loss=history['loss']
@@ -101,7 +101,7 @@ def cnn_history_graph():
     plt.plot(val_acc,label='val acc')
     plt.legend()
     plt.title('acc')
-    plt.subplot(2,2,3)
+    plt.subplot(2,2,2)
     plt.plot(train_loss,label='train loss')
     plt.plot(val_loss,label='val loss')
     plt.legend()
