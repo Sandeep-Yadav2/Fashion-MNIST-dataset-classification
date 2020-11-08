@@ -40,7 +40,7 @@ class_names=['Tshirt/TOP','Trouser','Pullover','Dress','Coat',
 ######### -------------- Sidebarr--------------------->
 add_selectbox = st.sidebar.selectbox(
     'select the model for classification',
-    ('Sequential','CNN','About data','Pretrained Neural network','Contact us')
+    ('Sequential','CNN','About data','Pretrained Neural network','Working Demo','Contact us')
 )
 
 
@@ -96,12 +96,12 @@ def cnn_history_graph():
     val_acc=history['val_accuracy']
     train_loss=history['loss']
     val_loss=history['val_loss']
-    plt.subplot(2,2,1)
+    plt.subplot(2,1,1)
     plt.plot(train_acc,label='Training accuracy')
     plt.plot(val_acc,label='Validation accuracy')
     plt.legend()
     plt.title('acc')
-    plt.subplot(2,2,2)
+    plt.subplot(2,1,2)
     plt.plot(train_loss,label='Training loss')
     plt.plot(val_loss,label='Validation loss')
     plt.legend()
@@ -147,6 +147,10 @@ if add_selectbox=='About data':
 
 if add_selectbox=='Pretrained Neural network':
     st.info("working on it, updated soon!")
+if add_selectbox=='Working Demo':
+    video_file = open('fashion-working-demo.webm', 'rb')
+    video_bytes = video_file.read()
+    st.video(video_bytes)
     
 if(add_selectbox=='Contact us'):
     image=Image.open('sandeep yadav.jpg')
