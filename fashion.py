@@ -149,7 +149,7 @@ if add_selectbox=='Pretrained Neural network':
     st.info("working on it, updated soon!")
     
 if(add_selectbox=='Contact us'):
-    image=Image.open('Sandeep Yadav.jpg')
+    image=Image.open('sandeep yadav.jpg')
     image=image.resize((400,400))
     st.image(image)
     st.write('Sandeep Yadav')
