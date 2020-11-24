@@ -158,7 +158,7 @@ if add_selectbox=='Demo Images':
   image4=Image.open("Demo Images/blazer.jpg")
   image4=image.resize((180,180))
   st.image(image4)
-  image5=Image.open("Demo Images/pant.jpeg")
+  image5=Image.open("Demo Images/pant.jpg")
   image5=image.resize((180,180))
   st.image(image5)
                    
