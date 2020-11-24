@@ -144,16 +144,22 @@ def about_data(cnn_model,Seq_model):
 
 if add_selectbox=='Demo Images':
   image=Image.open("Demo Images/shirt.jpeg")
+  image=image.resize((180,180))
   st.image(image)
-  image1=Image.open("//Demo Images//bag.jpg")
+  image1=Image.open("/Demo Images/bag.jpg")
+  image1=image.resize((180,180))
   st.image(image1)
   image2=Image.open("//Demo Images//sneaker.jpg")
+  image2=image.resize((180,180))
   st.image(image2)
   image3=Image.open("//Demo Images//t-shirt.jfif")
+  image3=image.resize((180,180))
   st.image(image3)
   image4=Image.open("//Demo Images//blazer.jpg")
+  image4=image.resize((180,180))
   st.image(image4)
   image5=Image.open("//Demo Images//pant.jpeg")
+  image5=image.resize((180,180))
   st.image(image5)
                    
   
