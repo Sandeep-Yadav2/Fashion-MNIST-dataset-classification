@@ -15,7 +15,7 @@ import Seq_model
 import pandas as pd
 import pickle
 import time
-import Demo Images
+#import Demo Images
 #from sequential_model import history_graph
 
 import numpy as np
