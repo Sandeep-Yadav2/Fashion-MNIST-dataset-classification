@@ -15,6 +15,7 @@ import Seq_model
 import pandas as pd
 import pickle
 import time
+import Demo Images
 #from sequential_model import history_graph
 
 import numpy as np
@@ -40,7 +41,7 @@ class_names=['Tshirt/TOP','Trouser','Pullover','Dress','Coat',
 ######### -------------- Sidebarr--------------------->
 add_selectbox = st.sidebar.selectbox(
     'select the model for classification',
-    ('Sequential','CNN','About data','Pretrained Neural network','Working Demo','Contact us')
+    ('Sequential','CNN','About data','Pretrained Neural network','Demo Images','Working Demo','Contact us')
 )
 
 
@@ -134,12 +135,28 @@ def about_data(cnn_model,Seq_model):
     if st.button('Sequntial model Architecture'):
         seq_archi()
  
-    
+ 
     
     if st.button('sequential model graph'):
         seq_history_graph()
     if st.button('CNN model graph'):
         cnn_history_graph()
+
+if add_selectbox=='Demo Images':
+  image=Image.open("//Demo Images//shirt.jpeg")
+  st.image(image)
+  image1=Image.open("//Demo Images//bag.jpg")
+  st.image(image1)
+  image2=Image.open("//Demo Images//sneaker.jpg")
+  st.image(image2)
+  image3=Image.open("//Demo Images//t-shirt.jfif")
+  st.image(image3)
+  image4=Image.open("//Demo Images//blazer.jpg")
+  st.image(image4)
+  image5=Image.open("//Demo Images//pant.jpeg")
+  st.image(image5)
+                   
+  
     
     
 if add_selectbox=='About data':
