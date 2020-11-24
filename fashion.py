@@ -143,7 +143,7 @@ def about_data(cnn_model,Seq_model):
         cnn_history_graph()
 
 if add_selectbox=='Demo Images':
-  image=Image.open("//Demo Images//shirt.jpeg")
+  image=Image.open("Demo Images/shirt.jpeg")
   st.image(image)
   image1=Image.open("//Demo Images//bag.jpg")
   st.image(image1)
