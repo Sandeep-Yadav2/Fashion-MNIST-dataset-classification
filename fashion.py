@@ -143,6 +143,7 @@ def about_data(cnn_model,Seq_model):
         cnn_history_graph()
 
 if add_selectbox=='Demo Images':
+  st.write("Please Upload the Following type of images of cloths for classification")
   image=Image.open("Demo Images/shirt.jpeg")
   image=image.resize((180,180))
   st.image(image)
