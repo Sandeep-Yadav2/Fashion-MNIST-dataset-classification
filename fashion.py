@@ -21,16 +21,14 @@ import time
 import numpy as np
 from PIL import Image, ImageOps
 st.markdown(
-"""
     <style>
     .reportview-container {
-        background: url("https://source.unsplash.com/user/jackie/likes/1600x900")
+        background: url("https://source.unsplash.com/WLUHO9A_xik/1600x900")
     }
    .sidebar .sidebar-content {
         background: url("https://source.unsplash.com/user/jackie/likes/1600x900")
     }
-    </style>
-    """,
+    </style>,
     unsafe_allow_html=True
 )
 
