@@ -29,7 +29,8 @@ st.markdown(
    .sidebar .sidebar-content {
         background: url("https://source.unsplash.com/user/jackie/likes/1600x900")
     }
-    </style>,"""
+    </style>
+    """,
     unsafe_allow_html=True
 )
 
