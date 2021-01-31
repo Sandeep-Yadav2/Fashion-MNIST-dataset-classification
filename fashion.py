@@ -20,7 +20,7 @@ import time
 
 import numpy as np
 from PIL import Image, ImageOps
-st.markdown(
+st.markdown("""
     <style>
     .reportview-container {
         background: url("https://source.unsplash.com/WLUHO9A_xik/1600x900")
@@ -29,6 +29,7 @@ st.markdown(
         background: url("https://source.unsplash.com/user/jackie/likes/1600x900")
     }
     </style>
+    """,
     unsafe_allow_html=True
 )
 
