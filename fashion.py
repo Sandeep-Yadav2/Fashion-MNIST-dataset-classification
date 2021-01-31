@@ -26,9 +26,9 @@ st.markdown(
     .reportview-container {
         background: url("https://unsplash.com/s/photos/fashion")
     }
-   #.sidebar .sidebar-content {
-        #background: url("url_goes_here")
-    #}
+   .sidebar .sidebar-content {
+        background: url("https://unsplash.com/s/photos/fashion")
+    }
     </style>
     unsafe_allow_html=True
 )
