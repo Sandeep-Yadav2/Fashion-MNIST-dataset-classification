@@ -28,7 +28,7 @@ st.markdown(
     }
    #.sidebar .sidebar-content {
         #background: url("url_goes_here")
-    }
+    #}
     </style>
     unsafe_allow_html=True
 )
