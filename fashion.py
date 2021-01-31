@@ -29,7 +29,7 @@ st.markdown(
    .sidebar .sidebar-content {
         background: url("https://unsplash.com/s/photos/fashion")
     }
-    </style>
+    </style>,
     unsafe_allow_html=True
 )
 
