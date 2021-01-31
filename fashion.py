@@ -23,7 +23,7 @@ from PIL import Image, ImageOps
 st.markdown("""
     <style>
     .reportview-container {
-        background: url("https://source.unsplash.com/1600x900/?fashion,clothes")
+        background: url("https://source.unsplash.com/1600x900/?sky,cloud")
     }
    .sidebar .sidebar-content {
         background: url("")
