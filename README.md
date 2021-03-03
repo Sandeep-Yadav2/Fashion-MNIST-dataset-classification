@@ -15,3 +15,8 @@
 
 
 
+![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/main%20page.PNG)
+
+
+
+
