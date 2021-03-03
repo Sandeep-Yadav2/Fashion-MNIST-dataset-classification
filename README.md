@@ -17,6 +17,16 @@
 
 ![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/main%20page.PNG)
 
+![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/uploading%20the%20image.PNG)
+
+![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/classification.PNG)
+
+![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/data%20explore.PNG)
+
+![alt text](https://github.com/Sandeep-Yadav2/Fashion-MNIST-dataset-classification/blob/main/acuracy%20graph.PNG)
+
+
+
 
 
 
