@@ -1,6 +1,9 @@
 # Fashion-MNIST-dataset-classification [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/sandeep-yadav2/fashion-mnist-dataset-classification/main/fashion.py)
 1.Fashion  dataset classification with streamlit GUI which machine learning powerful liblaries for more information read on streamlit.io
 
+Click on link for open the project
+https://share.streamlit.io/sandeep-yadav2/fashion-mnist-dataset-classification/main/fashion.py
+
 
 2.read the requirement file for reqiured  libraries
 
