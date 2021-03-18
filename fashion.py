@@ -21,7 +21,7 @@ import time
 import numpy as np
 from PIL import Image, ImageOps
 
-st.set_page_config(page_title="Clothes Classification App", page_icon="fashion_icon.jpg", layout='centered', initial_sidebar_state='auto')
+#st.set_page_config(page_title="Clothes Classification App", page_icon="fashion_icon.jpg", layout='centered', initial_sidebar_state='auto')
     
 
 st.markdown("""
